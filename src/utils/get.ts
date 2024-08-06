@@ -1,0 +1,1 @@
+export const getObjValue = (property: string, object: Record<string, any>): any => object[property] ?? "";

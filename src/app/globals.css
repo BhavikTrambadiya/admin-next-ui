@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+}
+
+@layer utilities {
+}
+
+@layer components {
+    .scrollbar::-webkit-scrollbar {
+        width: 0.2rem;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        @apply bg-gray-200 dark:bg-gray-900;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        @apply bg-primary-500;
+    }
+}

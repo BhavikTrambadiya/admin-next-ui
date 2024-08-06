@@ -1,0 +1,10 @@
+{
+  "printWidth": 160,
+  "tabWidth": 4,
+  "bracketSameLine": true,
+  "endOfLine": "crlf",
+  "tailwindAttributes": "className",
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
+}
