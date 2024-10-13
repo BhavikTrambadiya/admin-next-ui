@@ -12,6 +12,6 @@ export interface AnchorTypeProps extends BaseTypographyProps {
 }
 
 export interface BaseTypographyProps {
-    className: string | undefined,
+    className?: string | undefined,
     children: ReactNode
 }
